@@ -17,6 +17,7 @@
 
 # for audio
 /dev/msm_acdb	        0660    system      audio
+/dev/msm_adc            0660    system      audio
 /dev/msm_amrnb          0660    system      audio
 /dev/msm_audpre         0660    system      audio
 /dev/codec_aic3254      0660    system      audio
@@ -42,6 +43,7 @@
 /dev/msm_evrc_in        0660    system      audio
 /dev/msm_wma            0660    system      audio
 /dev/msm_wmapro         0660    system      audio
+/dev/msm_aac            0660    system      audio
 /dev/msm_aac_in         0660    system      audio
 /dev/msm_amrnb_in       0640    system      audio
 
@@ -195,6 +197,8 @@
 /dev/msm_preproc_ctl      0660  system       audio
 /dev/msm_a2dp_in          0640  system       audio
 /dev/msm_amrnb_in         0640  system       audio
+
+/dev/usb_accessory      0660    root        usb
 
 # permissions for sensors
 /dev/msm_dsps             0660  system       system
