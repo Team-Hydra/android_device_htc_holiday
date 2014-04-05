@@ -34,6 +34,7 @@ TARGET_BOOTLOADER_BOARD_NAME := holiday
 BOARD_KERNEL_BASE := 0x48000000
 BOARD_PAGE_SIZE := 2048
 BOARD_KERNEL_CMDLINE := console=ttyHSL0 androidboot.hardware=holiday no_console_suspend=1
+BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01400000
 BUILD_KERNEL := true
 TARGET_KERNEL_CONFIG := holiday_defconfig
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-arm-cortex-a8
